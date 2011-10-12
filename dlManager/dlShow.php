@@ -16,8 +16,6 @@
  *
 \**************************************************************************************************/
 
-$nbDL = 0;
-
 // Récupération des url des flux
 $reqSerie = Mysql::query("SELECT showID FROM serie WHERE visible = '1'");
 while ($donneesSerie = $reqSerie->fetch_row())
